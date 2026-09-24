@@ -1,4 +1,4 @@
-# 🌿 Home Greenhouse Plant Tracker
+# 🌿 Home Plant Tracker
 
 A mini-fullstack web application built to catalog, search, and sort houseplants. The application features a modular frontend utilizing **Vite + React** and a decoupled backend processing layer built with **Node.js, Express, and MongoDB**. 
 
