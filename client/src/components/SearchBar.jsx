@@ -1,4 +1,3 @@
-import React from 'react';
 export default function SearchBar({ search, setSearch, sort, setSort }) {
     return (
         <div className="controls-container">

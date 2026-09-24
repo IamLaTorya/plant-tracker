@@ -3,6 +3,7 @@ import { fetchPlants, deletePlant, updatePlant } from './services/api';
 import PlantForm from './components/PlantForm';
 import SearchBar from './components/SearchBar';
 import PlantList from './components/PlantList';
+import Footer from './components/Footer';
 import './App.css';
 
 export default function App() {
@@ -56,7 +57,7 @@ export default function App() {
 
   return (
     <div className="app-container">
-      <h1 className="app-title">🌿 Home Plant Tracking Station</h1>
+      <h1 className="app-title">🌿 Home Plant Tracker</h1>
       
       <PlantForm onPlantAdded={handlePlantAdded} />
       
@@ -76,6 +77,8 @@ export default function App() {
         onDeleteClick={handlePlantDelete} 
         onUpdatePlant={handlePlantUpdate} // Passes operational update pipeline down
       />
+        <Footer />
+
     </div>
   );
 }
